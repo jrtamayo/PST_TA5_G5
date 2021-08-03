@@ -18,7 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     public void  Ingresar(View view){
         Intent ingresar = new Intent(this,MainActivity3.class);
-        startActivity(ingresar);
+        startActivity(ingresar);            //Cambiar la ventana
     }
 
 }

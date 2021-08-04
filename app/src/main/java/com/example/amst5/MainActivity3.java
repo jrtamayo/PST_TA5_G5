@@ -45,5 +45,14 @@ public class MainActivity3 extends AppCompatActivity {
 
     }
 
+    // Boton de lista
+    public void  Lista(View view){
+        Intent listado = new Intent(this,MainActivity3.class);
+        startActivity(listado);
+    }
+    // Boton Usuario
+
+
+
 
 }

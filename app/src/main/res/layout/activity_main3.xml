@@ -20,33 +20,39 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="128dp"
-        android:layout_height="137dp"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:onClick="Lista"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/listaLibro"
+        app:layout_constraintVertical_bias="0.786"
         app:srcCompat="@drawable/botonlista" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="115dp"
-        android:layout_height="137dp"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
         android:layout_marginStart="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
         app:layout_constraintTop_toBottomOf="@+id/listaLibro"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.771"
         app:srcCompat="@drawable/botonhome" />
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="117dp"
-        android:layout_height="135dp"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+        android:onClick="Usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/listaLibro"
+        app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/botonusuario" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

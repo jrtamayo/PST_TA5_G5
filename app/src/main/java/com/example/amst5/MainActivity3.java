@@ -14,15 +14,29 @@ public class MainActivity3 extends AppCompatActivity {
     String[][] datos = {
             {"Titulo: Harry Potter", "Autor: Joanne Rowling", "Editorial: Salamandra",
                     "LIBRO 1 BLABLABALBALABLABLABA"},
-            {"Titulo: Don quijote de la Mancha", "Autor: Miguel de Cervantes", "Editorial: Francisco de Robles",
+            {"Titulo: Frankenstein", "Autor: Marry Shelly", "Editorial: Lackington",
                     "LIBRO 2 BLABLABALBALABLABLABA"},
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
                     "LIBRO 3 BLABLABALBALABLABLABA"},
-            {"Titulo: Diario de Ana Frank", "Autor: Annelies Frank", "Editorial: Garbo",
-                    "LIBRO 4 BLABLABALBALABLABLABA"},
+            {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
+                    "Editorial: Desconocido",
+                    "LIBRO 3 BLABLABALBALABLABLABA"},
+            {"Titulo: Caperucita Roja", "Autor: Charles Perrault", "Editorial: Kinder- und Hausmärchen",
+                    "SIPNOSIS \n Una niña recibe de su madre el encargo de llevar una cesta " +
+                            "a su abuela enferma que vive en el bosque, advirtiéndole que no " +
+                            "hable con desconocidos. Pero por el camino se encuentra un lobo " +
+                            "y se para a hablar con él, dándole detalles de lo que va a hacer. " +
+                            "El lobo aprovecha para engañar a caperucita y llegar antes a casa " +
+                            "de la abuelita, a quien se come, y luego ocupa su lugar para engañar " +
+                            "a caperucita y comérsela también. Afortunadamente, un leñador" +
+                            " que andaba por allí descubre al lobo durmiendo tras su comida," +
+                            " y rescata a caperucita y su abuelita de la tripa del lobo, " +
+                            "sustituyéndolas por piedras que hacen que el lobo se ahoge al ir " +
+                            "a beber al río."},
     };
 
-    int[] datosImg = {R.drawable.libro1, R.drawable.libro2 , R.drawable.libro3, R.drawable.libro4};
+    int[] datosImg = {R.drawable.libro1, R.drawable.frankenstein , R.drawable.libro3,R.drawable.soledad,
+            R.drawable.roja};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +70,10 @@ public class MainActivity3 extends AppCompatActivity {
         startActivity(usuario);
     }
 
-
-
+    // Boton Categoria
+    public void  Categoria(View view){
+        Intent categoria = new Intent(this,MainActivity4Categorias.class);
+        startActivity(categoria);
+    }
 
 }

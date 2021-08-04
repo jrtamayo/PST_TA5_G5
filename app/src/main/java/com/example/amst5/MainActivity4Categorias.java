@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity4Usuario extends AppCompatActivity {
+public class MainActivity4Categorias extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity4_usuario);
+        setContentView(R.layout.activity_main_activity4_categorias);
     }
 
     // Boton de lista

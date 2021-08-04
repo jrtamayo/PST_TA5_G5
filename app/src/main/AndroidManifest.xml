@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST5">
-        <activity android:name=".MainActivity4Usuario"></activity>
+        <activity android:name=".MainActivity4Categorias"></activity>
+        <activity android:name=".MainActivity4Usuario" />
         <activity android:name=".DetalleLibro" />
         <activity android:name=".VisorImagen" />
         <activity android:name=".MainActivity3" />

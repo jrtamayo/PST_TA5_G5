@@ -9,6 +9,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class Adaptador extends BaseAdapter {
 
     private static LayoutInflater inflater = null;

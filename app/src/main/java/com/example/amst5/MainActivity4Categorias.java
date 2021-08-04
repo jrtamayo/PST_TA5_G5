@@ -29,4 +29,12 @@ public class MainActivity4Categorias extends AppCompatActivity {
         Intent categoria = new Intent(this,MainActivity4Categorias.class);
         startActivity(categoria);
     }
+    public void  Terror(View view){
+        Intent terror = new Intent(this,VentanPorCategoria.class);
+        startActivity(terror);
+    }
+    public void  Infantil(View view){
+        Intent infantil = new Intent(this,Infantil.class);
+        startActivity(infantil);
+    }
 }

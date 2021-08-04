@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".Infantil">
 
     <ListView
-        android:id="@+id/listaLibro"
-        android:layout_width="404dp"
-        android:layout_height="573dp"
+        android:layout_width="410dp"
+        android:layout_height="625dp"
         android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -26,7 +25,6 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listaLibro"
         app:layout_constraintVertical_bias="0.786"
         app:srcCompat="@drawable/botonlista" />
 
@@ -38,7 +36,6 @@
         android:onClick="Categoria"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toBottomOf="@+id/listaLibro"
         app:layout_constraintVertical_bias="0.771"
         app:srcCompat="@drawable/botonhome" />
 
@@ -51,20 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
-        app:layout_constraintTop_toBottomOf="@+id/listaLibro"
         app:layout_constraintVertical_bias="0.78"
         app:srcCompat="@drawable/botonusuario" />
-
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="406dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:queryHint="Ingresar Nombre Del libro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

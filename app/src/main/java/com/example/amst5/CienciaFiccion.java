@@ -10,8 +10,8 @@ import android.widget.ListView;
 
 public class CienciaFiccion extends AppCompatActivity {
 
-    ListView listaNovela;
-    String[][] datosNovela = {
+    ListView listaCiencia;
+    String[][] datosCiencia = {
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
                     "SIPNOSIS \n Tras perder a su familia en un incendio, Carlos y su padre dejan su "+
                             "hacienda en la Sierra y se trasladan a la inexplorada Amazonía. "+
@@ -30,24 +30,24 @@ public class CienciaFiccion extends AppCompatActivity {
                             "lidiar con un mundo tan complejo como sencillo."},
     };
 
-    int[] datosImgNovela = {R.drawable.libro3, R.drawable.soledad };
+    int[] datosImgCiencia = {R.drawable.libro3, R.drawable.soledad };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        listaNovela = (ListView) findViewById(R.id.listaLibro);    //Prueba
+        listaCiencia = (ListView) findViewById(R.id.listaLibro);    //Prueba
 
-        listaNovela.setAdapter(new Adaptador(this, datosNovela, datosImgNovela));     //asignacion del adaptador
+        listaCiencia.setAdapter(new Adaptador(this, datosCiencia, datosImgCiencia));     //asignacion del adaptador
 
-        listaNovela.setAdapter(new Adaptador(this, datosNovela, datosImgNovela)); // prueba
+        listaCiencia.setAdapter(new Adaptador(this, datosCiencia, datosImgCiencia)); // prueba
 
-        listaNovela.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listaCiencia.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent visorDetalles = new Intent(view.getContext(), DetalleLibro.class);
-                visorDetalles.putExtra("TIT", datosNovela[position][0]);
-                visorDetalles.putExtra("DET", datosNovela[position][3]);
+                visorDetalles.putExtra("TIT", datosCiencia[position][0]);
+                visorDetalles.putExtra("DET", datosCiencia[position][3]);
                 startActivity(visorDetalles);
             }
         });

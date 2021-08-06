@@ -85,6 +85,17 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                             "y bombones rellenos y empiezan a devorar la casa a trocitos. En la casa " +
                             "habita una bruja a quien también le gustan las golosinas... pero para ella " +
                             "las más suculentas son las que están recubiertas de niño tierno."},
+            {"Título: Drácula", "Autor: Bram Stoker", "Editorial: Valdemar",
+            "SIPNOSOS \n Cuando Jonathan Harker viajó a Transilvania por asuntos de negocios, nunca"+
+                    "imaginó el peligro que corría. Su cliente, el magnético conde Drácula, lo mantiene"+
+                    "prisionero y Harker adivina sus oscuros propósitos: viajar a Londres para"+
+                    "sembrar el terror y cosechar víctimas con las que saciar su apetito de sangre."+
+                    "En Inglaterra, Lucy Westenra pasa de la felicidad por su futuro matrimonio a un"+
+                    "letargo inexplicable. Cada vez más débil, preocupa a sus amigos con su palidez y"+
+                    "unas extrañas heridas en el cuello. Su amigo, el doctor Seward, decide llamar al"+
+                    "profesor Van Helsing para que tome cartas en el asunto. Pronto, el círculo que"+
+                    "rodea a Lucy va a vivir una experiencia aterradora que pondrá a prueba su valor."
+            }
 
 
     };

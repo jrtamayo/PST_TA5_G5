@@ -32,8 +32,11 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
             {"Titulo: Frankenstein", "Autor: Marry Shelly", "Editorial: Lackington",
                     "SIPNOSIS \n Frankenstein es una historia macabra en la que Víctor, un joven ávido de conocimientos científicos, " +
                         "se obsesiona por lograr el mayor reto posible en el mundo científico: dar vida a un cuerpo muerto. " +
-                        
-                        "},
+                         "Su éxito será su condena, la creación de un monstruo estremecedor que, en respuesta a su rechazo " +
+                         "por todos se entrega por completo a saciar una sed de venganza hacia su creador, culpable de su desgracia, " +
+                         "y hacia todo lo que éste ama, tornando en muerte todo alrededor de Víctor. El monstruo, enfermo de soledad," +
+                         "solicita una compañera a su creador a cambio de desaparecer para siempre, pero Víctor se niega a ello, " +
+                         "provocando así que la única salida hacia la paz y el descanso sea el fin de uno de los dos."},
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
                     ""},
             {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",

@@ -12,25 +12,18 @@ public class CienciaFiccion extends AppCompatActivity {
 
     ListView listaCiencia;
     String[][] datosCiencia = {
-            {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
-                    "SIPNOSIS \n Tras perder a su familia en un incendio, Carlos y su padre dejan su "+
-                            "hacienda en la Sierra y se trasladan a la inexplorada Amazonía. "+
-                            "Allí, el joven se enamora de Cumandá, una bella indígena. "+
-                            "Sin embargo, las disputas entre aborígenes y colonos y un terrible "+
-                            "pasado transformarán esta historia de amor en una tragedia. "+
-                            "Un clásico de la literatura ecuatoriana."},
-            {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
-                    "Editorial: Desconocido",
-                    "SIPNOSIS \n Entre la boda de José Arcadio Buendía con Amelia Iguarán hasta "+
-                            "la maldición de Aureliano Babilonia transcurre todo un siglo. "+
-                            "Cien años de soledad para una estirpe única, fantástica, capaz "+
-                            "de fundar una ciudad tan especial como Macondo y de engendrar "+
-                            "niños con cola de cerdo. En medio, una larga docena de personajes "+
-                            "dejarán su impronta a las generaciones venideras, que tendrán que "+
-                            "lidiar con un mundo tan complejo como sencillo."},
+            {"Titulo: Harry Potter", "Autor: Joanne Rowling", "Editorial: Salamandra",
+                    " SIPNOSIS \n Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. " +
+                            "Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. " +
+                            "En ella le comunican que ha sido aceptado como alumno en el Colegio Hogwarts de Magia. A partir de ese momento, " +
+                            "la suerte de Harry da un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos " +
+                            "y tácticas de defensa contra las malas artes. Se convertirá en el campeón escolar de Quidditch, especie de fútbol aéreo " +
+                            "que se juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también algunos temibles enemigos. " +
+                            "Pero, sobre todo, conocerá los secretos que le permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, " +
+                            "Harry no es un chico común y corriente: ¡es un verdadero mago"},
     };
 
-    int[] datosImgCiencia = {R.drawable.libro3, R.drawable.soledad };
+    int[] datosImgCiencia = {R.drawable.libro1 };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -113,6 +113,11 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                     "binomios como normalidad y anormalidad, bien y mal, que se evidencian como una mera convención derivada"+
                     "del temor y el desconcierto ante lo diferente. Soy Leyenda está considerada la mejor novela de vampiros  "+
                     "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."}
+            {"Título: El Hobbit", "Autor: J. R. R. Tolkien", "Editorial: Booket",
+            "SINOPSIS \n Smaug parecía profundamente dormido cuando Bilbo espió una vez más desde la entrada."+
+            "¡Pero fingía estar dormido! ¡Estaba vigilando la entrada del túnel!... Sacado de su cómodo agujero-hobbit"+
+            "por Gandalf y una banda de enanos, Bilbo se encuentra de pronto en medio de una conspiración que pretende"+
+            "apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón..."}
     };
 
 

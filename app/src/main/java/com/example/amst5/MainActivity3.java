@@ -117,7 +117,15 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
             "SINOPSIS \n Smaug parecía profundamente dormido cuando Bilbo espió una vez más desde la entrada."+
             "¡Pero fingía estar dormido! ¡Estaba vigilando la entrada del túnel!... Sacado de su cómodo agujero-hobbit"+
             "por Gandalf y una banda de enanos, Bilbo se encuentra de pronto en medio de una conspiración que pretende"+
-            "apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón..."}
+            "apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón..."},
+            {"Título: El conde de Montecristo", "Autor: Alejandro Dumas", "Editorial: Racuda Ediciones",
+            "SINOPSIS \n El conde de Montecristo es uno de los clásicos más populares de todos los tiempos. Desde su publicación, "+
+            "en 1844, no ha dejado de seducir al gran público con la inolvidable historia de su protagonista. Edmond Dantés es "+
+            "un joven marinero, honrado y cándido, que lleva una existencia tranquila. Quiere casarse con la hermosa Mercedes,"+
+            "pero su vida se verá arruinada cuando su mejor amigo, Ferdinand, deseoso de conquistar a su prometida, le traicione "+
+            "vilmente. Condenado a cumplir una condena que no merece en la siniestra prisión del castillo de If, Edmond "+
+            " vivirá una larga pesadilla de trece años. Obsesionado por su inesperado destino, ejará de lado sus convicciones en torno"+
+            "al bien y al mal, y se dedicará a tramar la venganza perfecta."}
     };
 
 

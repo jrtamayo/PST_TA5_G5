@@ -46,7 +46,14 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                         "Un clásico de la literatura ecuatoriana."},
             {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
                     "Editorial: Desconocido",
-                    ""},
+                    "SIPNOSIS \n Entre la boda de José Arcadio Buendía con Amelia Iguarán hasta "+
+                        "la maldición de Aureliano Babilonia transcurre todo un siglo. "+
+                        "Cien años de soledad para una estirpe única, fantástica, capaz "+
+                        "de fundar una ciudad tan especial como Macondo y de engendrar "+
+                        "niños con cola de cerdo. En medio, una larga docena de personajes "+
+                        "dejarán su impronta a las generaciones venideras, que tendrán que "+
+                        "lidiar con un mundo tan complejo como sencillo."},
+            {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez"},
             {"Titulo: Caperucita Roja", "Autor: Charles Perrault", "Editorial: Kinder- und Hausmärchen",
                     "  SIPNOSIS \n Una niña recibe de su madre el encargo de llevar una cesta " +
                             "a su abuela enferma que vive en el bosque, advirtiéndole que no " +

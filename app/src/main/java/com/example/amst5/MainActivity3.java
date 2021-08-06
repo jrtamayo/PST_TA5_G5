@@ -112,11 +112,7 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                     "éste es un perturbador relato sobre la soledad y el aislamiento y una reflexión sobre los"+
                     "binomios como normalidad y anormalidad, bien y mal, que se evidencian como una mera convención derivada"+
                     "del temor y el desconcierto ante lo diferente. Soy Leyenda está considerada la mejor novela de vampiros  "+
-                    "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."
-            }
-
-
-
+                    "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."}
     };
 
 

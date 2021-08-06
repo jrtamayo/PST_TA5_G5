@@ -39,10 +39,19 @@ public class VentanPorCategoria extends AppCompatActivity {
                             "excepto la antigua tragedia de la casa de los Marsten. Y el perro muerto colgado de la verja del cementerio. Y el"+
                             "tragedia de la casa de los Marsten. Y el perro muerto colgado de la verja del cementerio. Y el"+
                             "animales que mueren desangrados... Y la espantosa presencia de Ellos, quienesquiera que sean ELLOS."}
-
+            {"Título: Soy leyenda", "Autor: Richard Matheson","Editorial: Minotauro",
+                    "SINPSIS \n Robert Neville es el único superviviente de una guerra bacteriológica que ha asolado el planeta"+
+                            "y convertido al resto de la humanidad en vampiros. Su vida se ha reducido a asesinar el máximo número"+
+                            "posible de estos seres sanguinarios durante el día, y a soportar su asedio cada noche.  Para ellos, el auténtico"+
+                            "monstruo es este hombre que lucha por subsistir en un nuevo orden establecido. Todo un clásico en su género,"+
+                            "éste es un perturbador relato sobre la soledad y el aislamiento y una reflexión sobre los"+
+                            "binomios como normalidad y anormalidad, bien y mal, que se evidencian como una mera convención derivada"+
+                            "del temor y el desconcierto ante lo diferente. Soy Leyenda está considerada la mejor novela de vampiros  "+
+                            "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."
+            }
     };
 
-    int[] datosImgTerror = {R.drawable.frankenstein, R.drawable.libroDracula, R.drawable.libroSalem };
+    int[] datosImgTerror = {R.drawable.frankenstein, R.drawable.libroDracula, R.drawable.libroSalem, R.drawable.libroSoyLeyenda };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -111,7 +111,7 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                     "éste es un perturbador relato sobre la soledad y el aislamiento y una reflexión sobre los "+
                     "binomios como normalidad y anormalidad, bien y mal, que se evidencian como una mera convención derivada "+
                     "del temor y el desconcierto ante lo diferente. Soy Leyenda está considerada la mejor novela de vampiros  "+
-                    "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."}
+                    "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."},
             {"Título: El Hobbit", "Autor: J. R. R. Tolkien", "Editorial: Booket",
             "SINOPSIS \n Smaug parecía profundamente dormido cuando Bilbo espió una vez más desde la entrada."+
             "¡Pero fingía estar dormido! ¡Estaba vigilando la entrada del túnel!... Sacado de su cómodo agujero-hobbit "+
@@ -149,8 +149,8 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
 
     int[] datosImg = {R.drawable.libro1, R.drawable.frankenstein , R.drawable.libro3,R.drawable.soledad,
             R.drawable.roja, R.drawable.patitofeo, R.drawable.lostrescerditos, R.drawable.hanselygretel,
-            R.drawable.libroDracula, R.drawable.libroSalem, R.drawable.libroSoyLeyenda, R.drawable.libroHobbit,
-            R.drawable.libroMontecristo,R.drawable.GuiaAutoGal,R.drawable.ViajeCentroTerra,R.drawable.Martian};
+            R.drawable.dracula, R.drawable.salem, R.drawable.legenda, R.drawable.hobbit,
+            R.drawable.montecristo,R.drawable.guia,R.drawable.viaje,R.drawable.martian};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

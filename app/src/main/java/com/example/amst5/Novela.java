@@ -32,7 +32,7 @@ public class Novela extends AppCompatActivity {
                     "SINOPSIS \n Smaug parecía profundamente dormido cuando Bilbo espió una vez más desde la entrada."+
                             "¡Pero fingía estar dormido! ¡Estaba vigilando la entrada del túnel!... Sacado de su cómodo agujero-hobbit"+
                             "por Gandalf y una banda de enanos, Bilbo se encuentra de pronto en medio de una conspiración que pretende"+
-                            "apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón..."}
+                            "apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón..."},
             {"Título: El conde de Montecristo", "Autor: Alejandro Dumas", "Editorial: Racuda Ediciones",
                     "SINOPSIS \n El conde de Montecristo es uno de los clásicos más populares de todos los tiempos. Desde su publicación, "+
                             "en 1844, no ha dejado de seducir al gran público con la inolvidable historia de su protagonista. Edmond Dantés es "+
@@ -43,7 +43,8 @@ public class Novela extends AppCompatActivity {
                             "al bien y al mal, y se dedicará a tramar la venganza perfecta."}
     };
 
-    int[] datosImgNovela = {R.drawable.libro3, R.drawable.soledad, R.drawable.libroHobbit, R.drawable.libroMontecristo };
+    int[] datosImgNovela = {R.drawable.libro3, R.drawable.soledad, R.drawable.hobbit,
+            R.drawable.montecristo };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

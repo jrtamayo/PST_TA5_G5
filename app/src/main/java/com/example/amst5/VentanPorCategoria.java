@@ -53,7 +53,8 @@ public class VentanPorCategoria extends AppCompatActivity {
                             "del siglo XX y ha inspirado tres películas, la más reciente, protagonizada por Will Smith."}
     };
 
-    int[] datosImgTerror = {R.drawable.frankenstein, R.drawable.libroDracula, R.drawable.libroSalem, R.drawable.libroSoyLeyenda };
+    int[] datosImgTerror = {R.drawable.frankenstein, R.drawable.dracula, R.drawable.salem,
+            R.drawable.legenda };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

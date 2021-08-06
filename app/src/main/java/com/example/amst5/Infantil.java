@@ -25,6 +25,7 @@ public class Infantil extends AppCompatActivity {
                             " y rescata a caperucita y su abuelita de la tripa del lobo, " +
                             "sustituyéndolas por piedras que hacen que el lobo se ahoge al ir " +
                             "a beber al río."},
+
     };
 
     int[] datosImgInfantil = {R.drawable.roja };

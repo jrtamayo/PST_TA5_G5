@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AMST5">
-        <activity android:name=".Novela"></activity>
+        <activity android:name=".CienciaFiccion"></activity>
+        <activity android:name=".Novela" />
         <activity android:name=".Infantil" />
         <activity android:name=".VentanPorCategoria" />
         <activity android:name=".MainActivity4Categorias" />

@@ -42,4 +42,9 @@ public class MainActivity4Categorias extends AppCompatActivity {
         Intent novela = new Intent(this,Novela.class);
         startActivity(novela);
     }
+
+    public void  Ciencia(View view){
+        Intent ciencia = new Intent(this,CienciaFiccion.class);
+        startActivity(ciencia);
+    }
 }

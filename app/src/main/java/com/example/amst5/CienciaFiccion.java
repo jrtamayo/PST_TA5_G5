@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-public class Novela extends AppCompatActivity {
+public class CienciaFiccion extends AppCompatActivity {
 
     ListView listaNovela;
     String[][] datosNovela = {
@@ -70,4 +70,4 @@ public class Novela extends AppCompatActivity {
         Intent categoria = new Intent(this,MainActivity4Categorias.class);
         startActivity(categoria);
     }
-    }
+}

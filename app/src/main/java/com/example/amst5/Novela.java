@@ -10,33 +10,44 @@ import android.widget.ListView;
 
 public class Novela extends AppCompatActivity {
 
-    ListView listaNovela;
-    String[][] datosNovela = {
+    ListView listaInfantil;
+    String[][] datosInfantil = {
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
-                    "LIBRO 3 BLABLABALBALABLABLABA"},
+                    "SIPNOSIS \n Tras perder a su familia en un incendio, Carlos y su padre dejan su "+
+                            "hacienda en la Sierra y se trasladan a la inexplorada Amazonía. "+
+                            "Allí, el joven se enamora de Cumandá, una bella indígena. "+
+                            "Sin embargo, las disputas entre aborígenes y colonos y un terrible "+
+                            "pasado transformarán esta historia de amor en una tragedia. "+
+                            "Un clásico de la literatura ecuatoriana."},
             {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
                     "Editorial: Desconocido",
-                    "LIBRO 3 BLABLABALBALABLABLABA"}
+                    "SIPNOSIS \n Entre la boda de José Arcadio Buendía con Amelia Iguarán hasta "+
+                            "la maldición de Aureliano Babilonia transcurre todo un siglo. "+
+                            "Cien años de soledad para una estirpe única, fantástica, capaz "+
+                            "de fundar una ciudad tan especial como Macondo y de engendrar "+
+                            "niños con cola de cerdo. En medio, una larga docena de personajes "+
+                            "dejarán su impronta a las generaciones venideras, que tendrán que "+
+                            "lidiar con un mundo tan complejo como sencillo."},
     };
 
-    int[] datosImgNovela = {R.drawable.libro3, R.drawable.soledad };
+    int[] datosImgInfantil = {R.drawable.libro3, R.drawable.soledad };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        listaNovela = (ListView) findViewById(R.id.listaLibro);    //Prueba
+        listaInfantil = (ListView) findViewById(R.id.listaLibro);    //Prueba
 
-        listaNovela.setAdapter(new Adaptador(this, datosNovela, datosImgNovela));     //asignacion del adaptador
+        listaInfantil.setAdapter(new Adaptador(this, datosInfantil, datosImgInfantil));     //asignacion del adaptador
 
-        listaNovela.setAdapter(new Adaptador(this, datosNovela, datosImgNovela)); // prueba
+        listaInfantil.setAdapter(new Adaptador(this, datosInfantil, datosImgInfantil)); // prueba
 
-        listaNovela.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listaInfantil.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent visorDetalles = new Intent(view.getContext(), DetalleLibro.class);
-                visorDetalles.putExtra("TIT", datosNovela[position][0]);
-                visorDetalles.putExtra("DET", datosNovela[position][3]);
+                visorDetalles.putExtra("TIT", datosInfantil[position][0]);
+                visorDetalles.putExtra("DET", datosInfantil[position][3]);
                 startActivity(visorDetalles);
             }
         });
@@ -59,4 +70,4 @@ public class Novela extends AppCompatActivity {
         Intent categoria = new Intent(this,MainActivity4Categorias.class);
         startActivity(categoria);
     }
-}
+    }

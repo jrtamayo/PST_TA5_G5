@@ -37,4 +37,9 @@ public class MainActivity4Categorias extends AppCompatActivity {
         Intent infantil = new Intent(this,Infantil.class);
         startActivity(infantil);
     }
+
+    public void  Novela(View view){
+        Intent novela = new Intent(this,Novela.class);
+        startActivity(novela);
+    }
 }

@@ -36,6 +36,7 @@
         android:layout_height="118dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="40dp"
+        android:onClick="Novela"
         android:text="N"
         android:textSize="48sp"
         app:layout_constraintStart_toStartOf="parent"

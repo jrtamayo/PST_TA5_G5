@@ -38,7 +38,12 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                          "solicita una compañera a su creador a cambio de desaparecer para siempre, pero Víctor se niega a ello, " +
                          "provocando así que la única salida hacia la paz y el descanso sea el fin de uno de los dos."},
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
-                    ""},
+                    "SIPNOSIS \n Tras perder a su familia en un incendio, Carlos y su padre dejan su "+
+                        "hacienda en la Sierra y se trasladan a la inexplorada Amazonía. "+
+                        "Allí, el joven se enamora de Cumandá, una bella indígena. "+
+                        "Sin embargo, las disputas entre aborígenes y colonos y un terrible "+
+                        "pasado transformarán esta historia de amor en una tragedia. "+
+                        "Un clásico de la literatura ecuatoriana."},
             {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
                     "Editorial: Desconocido",
                     ""},

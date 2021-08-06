@@ -94,8 +94,8 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                     "letargo inexplicable. Cada vez más débil, preocupa a sus amigos con su palidez y"+
                     "unas extrañas heridas en el cuello. Su amigo, el doctor Seward, decide llamar al"+
                     "profesor Van Helsing para que tome cartas en el asunto. Pronto, el círculo que"+
-                    "rodea a Lucy va a vivir una experiencia aterradora que pondrá a prueba su valor."
-            }
+                    "rodea a Lucy va a vivir una experiencia aterradora que pondrá a prueba su valor."},
+
 
 
     };

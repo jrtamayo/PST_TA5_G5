@@ -76,6 +76,15 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                             "una casa: de paja, de madera y de ladrillos. Pero el lobo feroz destruye " +
                             "la casa de paja y la de madera y los cerditos huyen a casa de su hermano. " +
                             "¿Conseguirán superar su miedo y vencer al lobo?"},
+            {"Titulo: Hansel y Gretel", "Autor: Jacob Grimm y Wilhelm Grimm", "Editorial: Hermanos Grimm",
+                    "  SIPNOSIS \n Hansel y Gretel es otra de las maravillosas historias que recopilaron " +
+                            "los Hermanos Grimm, inmortalizada en diferentes adaptaciones teatrales  " +
+                            "y musicales. El relato presenta al pequeño Hansel y su hermana Gretel  " +
+                            "que, perdidos en el bosque, encuentran una casita construida con las  " +
+                            "más suculentas golosinas. Los niños no pueden resistirse a los caramelos " +
+                            "y bombones rellenos y empiezan a devorar la casa a trocitos. En la casa " +
+                            "habita una bruja a quien también le gustan las golosinas... pero para ella " +
+                            "las más suculentas son las que están recubiertas de niño tierno."},
 
 
     };

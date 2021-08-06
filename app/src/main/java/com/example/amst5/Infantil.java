@@ -23,7 +23,7 @@ public class Infantil extends AppCompatActivity {
                             "a caperucita y comérsela también. Afortunadamente, un leñador" +
                             " que andaba por allí descubre al lobo durmiendo tras su comida," +
                             " y rescata a caperucita y su abuelita de la tripa del lobo, " +
-                            "sustituyéndolas por piedras que hacen que el lobo se ahoge al ir " +
+                            "sustituyéndolas por piedras que hacen que el lobo se ahogue al ir " +
                             "a beber al río."},
             {"Titulo: Patito Feo", "Autor: Hans Christian Andersen", "Editorial: Everest",
                     "  SIPNOSIS \n Esta es la historia de un cisne que nace en un corral de patos. " +

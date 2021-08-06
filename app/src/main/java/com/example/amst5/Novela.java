@@ -14,15 +14,15 @@ public class Novela extends AppCompatActivity {
     String[][] datosNovela = {
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
                     "SIPNOSIS \n Tras perder a su familia en un incendio, Carlos y su padre dejan su "+
-                            "hacienda en la Sierra y se trasladan a la inexplorada Amazonía. "+
-                            "Allí, el joven se enamora de Cumandá, una bella indígena. "+
+                            "hacienda en la Sierra y se trasladan a la inexplorada Amazonía."+
+                            "Allí, el joven se enamora de Cumandá, una bella indígena."+
                             "Sin embargo, las disputas entre aborígenes y colonos y un terrible "+
-                            "pasado transformarán esta historia de amor en una tragedia. "+
+                            "pasado transformarán esta historia de amor en una tragedia."+
                             "Un clásico de la literatura ecuatoriana."},
             {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
                     "Editorial: Desconocido",
                     "SIPNOSIS \n Entre la boda de José Arcadio Buendía con Amelia Iguarán hasta "+
-                            "la maldición de Aureliano Babilonia transcurre todo un siglo. "+
+                            "la maldición de Aureliano Babilonia transcurre todo un siglo."+
                             "Cien años de soledad para una estirpe única, fantástica, capaz "+
                             "de fundar una ciudad tan especial como Macondo y de engendrar "+
                             "niños con cola de cerdo. En medio, una larga docena de personajes "+
@@ -36,10 +36,10 @@ public class Novela extends AppCompatActivity {
             {"Título: El conde de Montecristo", "Autor: Alejandro Dumas", "Editorial: Racuda Ediciones",
                     "SINOPSIS \n El conde de Montecristo es uno de los clásicos más populares de todos los tiempos. Desde su publicación, "+
                             "en 1844, no ha dejado de seducir al gran público con la inolvidable historia de su protagonista. Edmond Dantés es "+
-                            "un joven marinero, honrado y cándido, que lleva una existencia tranquila. Quiere casarse con la hermosa Mercedes,"+
+                            "un joven marinero, honrado y cándido, que lleva una existencia tranquila. Quiere casarse con la hermosa Mercedes, "+
                             "pero su vida se verá arruinada cuando su mejor amigo, Ferdinand, deseoso de conquistar a su prometida, le traicione "+
                             "vilmente. Condenado a cumplir una condena que no merece en la siniestra prisión del castillo de If, Edmond "+
-                            " vivirá una larga pesadilla de trece años. Obsesionado por su inesperado destino, ejará de lado sus convicciones en torno"+
+                            "vivirá una larga pesadilla de trece años. Obsesionado por su inesperado destino, dejará de lado sus convicciones en torno"+
                             "al bien y al mal, y se dedicará a tramar la venganza perfecta."}
     };
 

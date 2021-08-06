@@ -21,14 +21,24 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
     String[][] datos = {
 
             {"Titulo: Harry Potter", "Autor: Joanne Rowling", "Editorial: Salamandra",
-                    "LIBRO 1 BLABLABALBALABLABLABA"},
+                    " SIPNOSIS \n Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. " + 
+                                "Harry se siente muy triste y solo, hasta que un buen día recibe una carta que cambiará su vida para siempre. " +
+                                "En ella le comunican que ha sido aceptado como alumno en el Colegio Hogwarts de Magia. A partir de ese momento, " +
+                                "la suerte de Harry da un vuelco espectacular. En esa escuela tan especial aprenderá encantamientos, trucos fabulosos " +
+                                "y tácticas de defensa contra las malas artes. Se convertirá en el campeón escolar de Quidditch, especie de fútbol aéreo " +
+                                "que se juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también algunos temibles enemigos. " +
+                                "Pero, sobre todo, conocerá los secretos que le permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, " +
+                                "Harry no es un chico común y corriente: ¡es un verdadero mago"},
             {"Titulo: Frankenstein", "Autor: Marry Shelly", "Editorial: Lackington",
-                    "LIBRO 2 BLABLABALBALABLABLABA"},
+                    "SIPNOSIS \n Frankenstein es una historia macabra en la que Víctor, un joven ávido de conocimientos científicos, " +
+                        "se obsesiona por lograr el mayor reto posible en el mundo científico: dar vida a un cuerpo muerto. " +
+                        
+                        "},
             {"Titulo: Cumanda", "Autor: Juan Leon Mera", "Editorial: Desconocido",
-                    "LIBRO 3 BLABLABALBALABLABLABA"},
+                    ""},
             {"Titulo: Cien años de Soledad", "Autor: Gabriel García Márquez",
                     "Editorial: Desconocido",
-                    "LIBRO 3 BLABLABALBALABLABLABA"},
+                    ""},
             {"Titulo: Caperucita Roja", "Autor: Charles Perrault", "Editorial: Kinder- und Hausmärchen",
                     "  SIPNOSIS \n Una niña recibe de su madre el encargo de llevar una cesta " +
                             "a su abuela enferma que vive en el bosque, advirtiéndole que no " +

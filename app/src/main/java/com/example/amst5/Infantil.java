@@ -25,6 +25,11 @@ public class Infantil extends AppCompatActivity {
                             " y rescata a caperucita y su abuelita de la tripa del lobo, " +
                             "sustituyéndolas por piedras que hacen que el lobo se ahoge al ir " +
                             "a beber al río."},
+        {"Titulo: Patito Feo", "Autor: Hans Christian Andersen", "Editorial: Everest",
+                    "  SIPNOSIS \n Esta es la historia de un cisne que nace en un corral de patos. " +
+                            "Ridiculizado por ser diferente, huye, pero donde quiera que va, " +
+                            "tropieza con la misma incomprensión, hasta que al fin crece y se " +
+                            "convierte en la más hermosa y admirada criatura."},
 
     };
 

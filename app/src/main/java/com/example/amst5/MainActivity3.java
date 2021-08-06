@@ -70,6 +70,12 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                             "Ridiculizado por ser diferente, huye, pero donde quiera que va, " +
                             "tropieza con la misma incomprensión, hasta que al fin crece y se " +
                             "convierte en la más hermosa y admirada criatura."},
+            {"Titulo: Los Tres Cerditos", "Autor: James Halliwell-Phillips", "Editorial: Viking Press",
+                    "  SIPNOSIS \n Los tres cerditos viven con su madre hasta que un día ella les dice " +
+                            "que tienen que independizarse. Se despiden de ella y cada uno construye " +
+                            "una casa: de paja, de madera y de ladrillos. Pero el lobo feroz destruye " +
+                            "la casa de paja y la de madera y los cerditos huyen a casa de su hermano. " +
+                            "¿Conseguirán superar su miedo y vencer al lobo?"},
 
 
     };

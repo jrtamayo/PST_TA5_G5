@@ -21,6 +21,25 @@ public class CienciaFiccion extends AppCompatActivity {
                             "que se juega montado sobre escobas, y hará un puñado de buenos amigos... aunque también algunos temibles enemigos. " +
                             "Pero, sobre todo, conocerá los secretos que le permitirán cumplir su destino. Pues, aunque no lo parezca a primera vista, " +
                             "Harry no es un chico común y corriente: ¡es un verdadero mago"},
+        {"Título: Guia del Autoestopista Galactico", "Autor: Douglas Adams", "Editorial: Anagrama",
+            "SINOPSIS \n , Un jueves a la hora de comer, la Tierra es demolida para poder construir una nueva autopista hiperespacial."+
+            "Arthur Dent, un tipo que esa misma mañana ha visto cómo echaban abajo su propia casa, "+
+            "considera que eso supera lo que una persona puede soportar. Arthur huirá de la Tierra junto a un amigo suyo, "+
+            "Ford Prefect, que resultará ser un extraterrestre emparentado con Zaphod Beeblebrox, "+
+            "un pirata esquizoide de dos cabezas, en cuya nave conocerá al resto de personajes que lo acompañarán: "+
+            "un androide paranoide y una terrícola que, como él, ha logrado escapar."},
+        {"Título: Viaje al Centro de la Tierra", "Autor: Julio Verne", "Editorial: Hetzel",
+            "SINOPSIS \n , El profesor Lidenbrock es un hombre mayor destacado por su inteligencia y terquedad, "+
+            "logra descifrar un antiguo pergamino dándole sentido a los extraños signos que se encontraban escritos en él."+
+            "Sin embargo, tras esos símbolos lo que se avecinaba era un gran peligro que arrastra al profesor Lidenbrock, "+
+            "a su joven sobrino Axel y al valeroso cazador Hans Bjelke hacer un viaje al centro de la Tierra, "+
+            "poblado de animales antediluvianos, tempestades terribles y otros riesgos sin mayor importancia."},
+        {"Título: El Marciano", "Autor: Andy Weir", "Editorial: Nova",
+            "SINOPSIS \n , Hace seis dias, el astronauta Mark Watney se convirtió en una de las primeras personas en caminar por Marte."+
+            "Ahora, está seguro de que va a ser la primera persona en morir allí."+
+            "Después de que una tormenta de polvo casi acabase con él y oblige a su tripulacion a evacuar dándolo por muerto, "+
+            "Mark se encuentra atrapado y completamente solo, sin manera de enviar una señal a la tierra de que está vivo, "+
+            "y aunque pudiera conseguir comunicarse, sus suministros se acabarían mucho antes de que el rescate llegase."}
     };
 
     int[] datosImgCiencia = {R.drawable.libro1 };

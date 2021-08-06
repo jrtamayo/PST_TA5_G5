@@ -28,9 +28,14 @@ public class Novela extends AppCompatActivity {
                             "niños con cola de cerdo. En medio, una larga docena de personajes "+
                             "dejarán su impronta a las generaciones venideras, que tendrán que "+
                             "lidiar con un mundo tan complejo como sencillo."},
+            {"Título: El Hobbit", "Autor: J. R. R. Tolkien", "Editorial: Booket",
+                    "SINOPSIS \n Smaug parecía profundamente dormido cuando Bilbo espió una vez más desde la entrada."+
+                            "¡Pero fingía estar dormido! ¡Estaba vigilando la entrada del túnel!... Sacado de su cómodo agujero-hobbit"+
+                            "por Gandalf y una banda de enanos, Bilbo se encuentra de pronto en medio de una conspiración que pretende"+
+                            "apoderarse del tesoro de Smaug el Magnífico, un enorme y muy peligroso dragón..."}
     };
 
-    int[] datosImgNovela = {R.drawable.libro3, R.drawable.soledad };
+    int[] datosImgNovela = {R.drawable.libro3, R.drawable.soledad, R.drawable.libroHobbit };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

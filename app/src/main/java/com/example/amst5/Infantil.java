@@ -47,7 +47,7 @@ public class Infantil extends AppCompatActivity {
                             "las más suculentas son las que están recubiertas de niño tierno."},
     };
 
-    int[] datosImgInfantil = {R.drawable.roja, R.drawable.patitofeo};
+    int[] datosImgInfantil = {R.drawable.roja, R.drawable.patitofeo, R.drawable.lostrescerditos};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

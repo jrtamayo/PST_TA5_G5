@@ -95,6 +95,15 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
                     "unas extrañas heridas en el cuello. Su amigo, el doctor Seward, decide llamar al"+
                     "profesor Van Helsing para que tome cartas en el asunto. Pronto, el círculo que"+
                     "rodea a Lucy va a vivir una experiencia aterradora que pondrá a prueba su valor."},
+            {"Título: El misterio de Salem's Lot", "Autor: Stephen King", "Editorial: Doubleday",
+            "SINOPSIS \n Salem's Lot es un pueblo tranquilo donde nunca pasa nada. O quizás esto son solo apariencias,"+
+            "pues lo cierto es que sí se están sucediendo diversos hechos misteriosos, incluso escalofriantes...."+
+            "Veinte años atrás, por una apuesta infantil, Ben Mears entró en la casa de los Marsten. Y lo que"+
+            "vio entonces aún recorre sus pesadillas. Ahora, como escritor consagrado, vuelve a Salem's Lot"+
+            "para exorcizar sus fantasmas. Salem's Lot es un pueblo tranquilo y adormilado donde nunca pasa nada..., "+
+            "excepto la antigua tragedia de la casa de los Marsten. Y el perro muerto colgado de la verja del cementerio. Y el"+
+            "tragedia de la casa de los Marsten. Y el perro muerto colgado de la verja del cementerio. Y el"+
+            "animales que mueren desangrados... Y la espantosa presencia de Ellos, quienesquiera que sean ELLOS."}
 
 
 

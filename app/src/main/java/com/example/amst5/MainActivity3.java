@@ -102,7 +102,8 @@ public class MainActivity3 extends AppCompatActivity implements SearchView.OnQue
 
 
     int[] datosImg = {R.drawable.libro1, R.drawable.frankenstein , R.drawable.libro3,R.drawable.soledad,
-            R.drawable.roja, R.drawable.patitofeo, R.drawable.lostrescerditos, R.drawable.hanselygretel};
+            R.drawable.roja, R.drawable.patitofeo, R.drawable.lostrescerditos, R.drawable.hanselygretel,
+            R.drawable.libroDracula};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

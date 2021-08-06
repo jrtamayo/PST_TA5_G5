@@ -42,7 +42,7 @@ public class CienciaFiccion extends AppCompatActivity {
             "y aunque pudiera conseguir comunicarse, sus suministros se acabarían mucho antes de que el rescate llegase."}
     };
 
-    int[] datosImgCiencia = {R.drawable.libro1 };
+    int[] datosImgCiencia = {R.drawable.libro1, R.drawable.GuiaAutoGal,R.drawable.ViajeCentroTerra,R.drawable.Martian};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

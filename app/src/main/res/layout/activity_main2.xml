@@ -76,6 +76,7 @@
             android:id="@+id/Contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
             android:hint="Ingrese Contraseña"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -91,6 +92,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="267dp"
+            android:background="@color/white"
             android:layout_height="match_parent"
             android:hint="Ingrese Usuario" />
     </com.google.android.material.textfield.TextInputLayout>

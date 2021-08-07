@@ -17,32 +17,34 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/imageButton3"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="36dp"
+        android:background="@color/white"
+        android:onClick="Categoria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:srcCompat="@drawable/botonhome" />
+
+    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="102dp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
+        android:background="@color/white"
         android:onClick="Lista"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.786"
         app:srcCompat="@drawable/botonlista" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="100dp"
-        android:layout_height="62dp"
-        android:layout_marginStart="24dp"
-        android:onClick="Categoria"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintVertical_bias="0.771"
-        app:srcCompat="@drawable/botonhome" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="100dp"
         android:layout_height="62dp"
+        android:background="@color/white"
         android:onClick="Usuario"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
